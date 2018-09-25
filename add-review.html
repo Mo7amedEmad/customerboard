@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/rateyo.css">
     <link rel="stylesheet" href="css/lightslider.min.css">
     <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/form-wizard-blue.css">
     <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/megamenu.css">
     <!-- =========================
@@ -937,14 +938,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="text-center">
-                        <h1 class="wishlist-slider-title">Wishlist</h1>
+                        <h1 class="wishlist-slider-title">Add Review</h1>
                         <div class="page-location pt-0">
                             <ul>
                                 <li><a href="#">
                                     Home <span class="divider">/</span>
                                 </a></li>
                                 <li><a class="page-location-active" href="#">
-                                    <span class="active-color">Wishlist</span>
+                                    <span class="active-color">Add Review</span>
                                     <span class="divider">/</span>
                                 </a></li>
                             </ul>
@@ -954,6 +955,362 @@
             </div>
         </div>
     </section>
+<!-- **************************************************************************** -->
+<section id="add-review" class="add-review">
+    <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-wizard form-header-classic form-body-classic">
+                        <form role="form" action="" method="post" id="write-review">
+
+                            <h3>Add Review</h3>
+                            <p>Fill all form field to go next step</p>
+                            
+                            <!-- Form progress -->
+                            <div class="form-wizard-steps form-wizard-tolal-steps-4">
+                                <div class="form-wizard-progress">
+                                    <div class="form-wizard-progress-line" data-now-value="12.25" data-number-of-steps="4" style="width: 12.25%;"></div>
+                                </div>
+                                <!-- Step 1 -->
+                                <div class="form-wizard-step active">
+                                    <div class="form-wizard-step-icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></div>
+                                    <p>Account</p>
+                                </div>
+                                <!-- Step 1 -->
+                                
+                                <!-- Step 2 -->
+                                <div class="form-wizard-step">
+                                    <div class="form-wizard-step-icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                    <p>Personal</p>
+                                </div>
+                                <!-- Step 2 -->
+                                
+                                <!-- Step 3 -->
+                                <div class="form-wizard-step">
+                                    <div class="form-wizard-step-icon"><i class="fa fa-university" aria-hidden="true"></i></div>
+                                    <p>Bank</p>
+                                </div>
+                                <!-- Step 3 -->
+                                
+                                <!-- Step 4 -->
+                                <div class="form-wizard-step">
+                                    <div class="form-wizard-step-icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+                                    <p>Confirm</p>
+                                </div>
+                                <!-- Step 4 -->
+                            </div>
+                            <!-- Form progress -->
+                            
+                            
+                            <!-- Form Step 1 -->
+                            <fieldset>
+                                <!-- Progress Bar -->
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                  </div>
+                                </div>
+                                <!-- Progress Bar -->
+                                <h4>Account Information: <span>Step 1 - 4</span></h4>
+                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                    <div class="form-group">
+                                        <label>Company : <span>*</span></label>
+                                        <input type="text" name="Email" placeholder="Company Name" class="form-control required">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                    <div class="form-group">
+                                        <label>Title of your review : <span>*</span></label>
+                                        <input type="text" name="Username" placeholder="Title of your review" class="form-control required">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                    <div class="form-group">
+                                      <label>More Details : <span>*</span></label>
+                                      <textarea class="form-control moredetails" rows="4" cols="50" placeholder="What happened? When did it happen? Have you tried to contact them?" name="complaint"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 col-xs-12 pull-left">
+                                        <div class="form-group">
+                                            <label>Add Photo : <span>*</span></label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12 pull-left form-group">
+                                        <div class="form-group">
+                                            <label>Add Video : <span>*</span></label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 col-xs-12 pull-left">
+                                        <div class="form-group">
+                                            <label>Category : <span>*</span></label>
+                                            <select class="form-control">
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                              <option>select Category</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12 pull-left form-group">
+                                        <div class="form-group">
+                                            <label>SubCategory : <span>*</span></label>
+                                            <select class="form-control">
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                              <option>select SubCategory</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                        <div class="form-group">
+                                            <label>Select a product or service to complain : <span>*</span></label>
+                                            <input type="text" name="Username" placeholder="Select a product or service to complain" class="form-control required">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">I have read and agree to the Pissed Consumer <a href="#">"Terms of service"</a></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-wizard-buttons">
+                                    <button type="button" class="btn btn-next">Next</button>
+                                </div>
+                            </fieldset>
+                            <!-- Form Step 1 -->
+
+                            
+                            <!-- Form Step 2 -->
+                            <fieldset>
+                                <!-- Progress Bar -->
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                  </div>
+                                </div>
+                                <!-- Progress Bar -->
+                                <h4>Personal Information : <span>Step 2 - 4</span></h4>
+                                <div class="form-group">
+                                    <label>First Name: <span>*</span></label>
+                                    <input type="text" name="First Name" placeholder="First Name" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name: <span>*</span></label>
+                                    <input type="text" name="Last Name" placeholder="Last Name" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Gender : </label>
+                                    <label class="radio-inline">
+                                      <input type="radio" name="Gender" value="option1" checked="checked"> Male
+                                    </label>
+                                    <label class="radio-inline">
+                                      <input type="radio" name="Gender" value="option2"> Female
+                                    </label>
+                                </div>
+                                <div class="container-fluid">
+                                <div class="row form-inline">
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Date Of Birth: </label>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Day: </label>
+                                    <select class="form-control">
+                                      <option>01</option>
+                                      <option>02</option>
+                                      <option>03</option>
+                                      <option>04</option>
+                                      <option>05</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Month: </label>
+                                    <select class="form-control">
+                                      <option>Jan</option>
+                                      <option>Feb</option>
+                                      <option>Mar</option>
+                                      <option>Apr</option>
+                                      <option>May</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Year: </label>
+                                    <select class="form-control">
+                                      <option>2017</option>
+                                      <option>2018</option>
+                                      <option>2019</option>
+                                      <option>2020</option>
+                                      <option>2021</option>
+                                    </select>
+                                </div>
+                                </div>
+                                </div>
+                                <div style="clear:both;"></div>
+                                <div class="form-group">
+                                    <label>Phone: <span>*</span></label>
+                                    <input type="text" name="Phone" placeholder="Phone" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Address: <span>*</span></label>
+                                    <input type="text" name="Address" placeholder="Address" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Zip Code: <span>*</span></label>
+                                    <input type="text" name="Zip Code" placeholder="Zip Code" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>State: <span>*</span></label>
+                                    <input type="text" name="State" placeholder="State" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Country: </label>
+                                    <select class="form-control">
+                                      <option>Australia</option>
+                                      <option>America</option>
+                                      <option>Bangladesh</option>
+                                      <option>Canada</option>
+                                      <option>England</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-wizard-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="button" class="btn btn-next">Next</button>
+                                </div>
+                            </fieldset>
+                            <!-- Form Step 2 -->
+
+                            
+                            <!-- Form Step 3 -->
+                            <fieldset>
+                                <!-- Progress Bar -->
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                  </div>
+                                </div>
+                                <!-- Progress Bar -->
+                                <h4>Bank Information: <span>Step 3 - 4</span></h4>
+                                <div class="form-group">
+                                    <label>Bank Name: <span>*</span></label>
+                                    <input type="text" name="Bank Name" placeholder="Bank Name" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Branch Name: <span>*</span></label>
+                                    <input type="text" name="Holder Name" placeholder="Holder Name" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Account Name: <span>*</span></label>
+                                    <input type="text" name="Account Name" placeholder="Account Name" class="form-control required">
+                                </div>
+                                <div class="form-group">
+                                    <label>Account Number: <span>*</span></label>
+                                    <input type="text" name="Account Number" placeholder="Account Number" class="form-control required">
+                                </div>
+                                <div class="container-fluid">
+                                <div class="row form-inline">
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Account Create: </label>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Day: </label>
+                                    <select class="form-control">
+                                      <option>01</option>
+                                      <option>02</option>
+                                      <option>03</option>
+                                      <option>04</option>
+                                      <option>05</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Month: </label>
+                                    <select class="form-control">
+                                      <option>Jan</option>
+                                      <option>Feb</option>
+                                      <option>Mar</option>
+                                      <option>Apr</option>
+                                      <option>May</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3 col-xs-3">
+                                    <label>Year: </label>
+                                    <select class="form-control">
+                                      <option>2017</option>
+                                      <option>2018</option>
+                                      <option>2019</option>
+                                      <option>2020</option>
+                                      <option>2021</option>
+                                    </select>
+                                </div>
+                                </div>
+                                </div>
+                                <br/>
+                                <div class="form-wizard-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="button" class="btn btn-next">Next</button>
+                                </div>
+                            </fieldset>
+                            <!-- Form Step 3 -->
+                            
+                            
+                            <!-- Form Step 4 -->
+                            <fieldset>
+                                <!-- Progress Bar -->
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                  </div>
+                                </div>
+                                <!-- Progress Bar -->
+                                <h4>Confirm Details: <span>Step 4 - 4</span></h4>
+                                <div style="clear:both;"></div>
+                                <div class="table-responsive">
+                                  <table class="table">
+                                    <tr><th>Name</th><td>Abdul Kuddus</td></tr>
+                                    <tr><th>Email</th><td>some@ex.com</td></tr>
+                                    <tr><th>Phone</th><td>0123456789</td></tr>
+                                    <tr><th>User</th><td>Abdulkuddus99</td></tr>
+                                    <tr><th>Gender</th><td>Male</td></tr>
+                                    <tr><th>Address</th><td>House #06 kallayanpur, Dhaka</td></tr>
+                                    <tr><th>Zip Code</th><td>1207</td></tr>
+                                    <tr><th>Country</th><td>Bangladesh</td></tr>
+                                    <tr><th>Bank Name</th><td>Dhaka city Bank</td></tr>
+                                    <tr><th>Branch Name</th><td>Dhaka city Branch</td></tr>
+                                    <tr><th>Account Number</th><td>456974542514</td></tr>
+                                  </table>
+                                </div>
+                                <div class="form-wizard-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="submit" class="btn btn-submit">Submit</button>
+                                </div>
+                            </fieldset>
+                            <!-- Form Step 4 -->
+                        
+                        </form>
+                        
+                        </div>
+                        <!-- Form Wizard -->
+                    </div>
+                </div>
+    </div>
+</section>
+<!-- *************************************************************************** -->
     <!-- =========================
         Call To Action Section
     ============================== -->
@@ -1199,7 +1556,7 @@
     <script src="js/simplePlayer.js"></script>
     <script src="js/diacritics.js"></script>
     <script src="js/bootstrap-dropdown-filter.js"></script>
-
+    <script src="js/form-wizard.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

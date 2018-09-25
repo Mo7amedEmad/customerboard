@@ -12228,3 +12228,38 @@ a.go-back {
   padding: 10px 0px;
   color: #ff0036
 }
+/****************************************/
+#add-review {
+    background: #fff;
+    padding: 50px 0px;
+}
+.form-wizard {
+    padding: 25px;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 3px #77777714;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+    border: 3px dashed #eee;
+}
+#write-review textarea{
+  height: 100px;
+}
+#write-review .form-check-label {
+   padding-left: 0rem; 
+    margin-bottom: 0;
+}
+#write-review .form-check-input {
+    position: relative;
+     margin-top: 0rem; 
+     margin-left:  0rem; 
+}
+#write-review  .form-wizard h4{
+  padding-bottom: 15px;
+}
